@@ -1,21 +1,41 @@
 
 /* social button */
-#social-buttons .btn {
+.social-buttons .btn {
   color:white;
+  background:none;
 }
-.btn-twitter{
-  background-color: #1da1f2;
+#btn-twitter{
+  background-color: #00acee;
+  border-color: #009ad5;
 }
-.btn-facebook{
-  background-color: #3B5998;
+#btn-facebook{
+  background-color: #4868ac;
+  border-color: #314776;
 }
-.btn-pinterest{
-  background-color: #c92228;
+#btn-pinterest{
+  background-color: #b62f26;
+  border-color: #b62f26;
 }
 .background-picture{
   background-image: url(../images/happy-couple.jpg);
   height: 100%;
+  background-attachment: fixed;
+  min-height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#navigation{
+  background: rgba(244, 238, 224, 0.5);
+  color: rgba(205, 92, 0, 1);
+  text-align:center;
+}
+
+body{
+  padding-top: 70px;
+}
+
+.jumbotron{
+  background:rgba(244, 238, 224, 0.4);
 }
