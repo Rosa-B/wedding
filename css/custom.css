@@ -1,0 +1,21 @@
+
+/* social button */
+#social-buttons .btn {
+  color:white;
+}
+.btn-twitter{
+  background-color: #1da1f2;
+}
+.btn-facebook{
+  background-color: #3B5998;
+}
+.btn-pinterest{
+  background-color: #c92228;
+}
+.background-picture{
+  background-image: url(../images/happy-couple.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
